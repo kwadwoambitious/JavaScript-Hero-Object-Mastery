@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superhero Battle Simulator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Main title of the page -->
+    <h1>Superhero Battle Simulator</h1>
+
+    <!-- Section to select heroes for the battle -->
+    <div id="heroSelection">
+      <h2>Select Your Heroes</h2>
+      <!-- Dropdown for first hero selection -->
+      <select id="hero1">
+        <option value="Superman">Superman</option>
+        <option value="Batman">Batman</option>
+        <option value="Wonder Woman">Wonder Woman</option>
+        <option value="Spider-Man">Spider-Man</option>
+      </select>
+
+      <!-- Dropdown for second hero selection -->
+      <select id="hero2">
+        <option value="Superman">Superman</option>
+        <option value="Batman">Batman</option>
+        <option value="Wonder Woman">Wonder Woman</option>
+        <option value="Spider-Man">Spider-Man</option>
+      </select>
+    </div>
+
+    <!-- Button to start the battle -->
+    <button id="battleBtn">Start Battle!</button>
+
+    <!-- Section to display the battle result -->
+    <div id="result"></div>
+
+    <!-- Link to external JavaScript file for battle logic -->
+    <script src="BattleSimulator.js"></script>
+  </body>
+</html>
